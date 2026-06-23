@@ -99,7 +99,7 @@ const DynamicInputs = () => {
   } = useForm();
 
   const onSubmit = (data: any) => {
-    console.log(data,"formadata");
+    console.log(data,"formadata123");
   };
 
   return (
