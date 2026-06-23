@@ -16,6 +16,18 @@ const userDetails = [
     max: 0,
     value: "abc",
   },
+   {
+    name: "lastName",
+    label: "Last Name",
+    type: "text",
+    required: false,
+    pattern: "",
+    minLength: 2,
+    maxLength: 50,
+    min: 0,
+    max: 0,
+    value: "",
+  },
   {
     name: "email",
     label: "Email",
@@ -87,7 +99,7 @@ const DynamicInputs = () => {
   } = useForm();
 
   const onSubmit = (data: any) => {
-    console.log(data);
+    console.log(data,"formadata");
   };
 
   return (
